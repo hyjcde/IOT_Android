@@ -1,0 +1,6 @@
+# 项目排除路径
+/.gradle/
+/app/build/
+/app/build/intermediates/classes/debug/
+/build/
+/lib/build/

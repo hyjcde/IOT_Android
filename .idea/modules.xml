@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CoverFlow-master_-_19373133.iml" filepath="$PROJECT_DIR$/.idea/modules/CoverFlow-master_-_19373133.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CoverFlow-master_-_19373133.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CoverFlow-master_-_19373133.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/CoverFlow-master_-_19373133.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/CoverFlow-master_-_19373133.lib.iml" />
+    </modules>
+  </component>
+</project>
