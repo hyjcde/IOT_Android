@@ -272,7 +272,7 @@ public class CardActivityGroup extends ActivityGroup {
 
     private void initView() {
         bodyView.removeAllViews();
-        this.getWindow().getDecorView().setBackgroundResource(R.drawable.buscard_consume_background);
+        this.getWindow().getDecorView().setBackgroundResource(R.drawable.canteen_card);
         View v = getLocalActivityManager().startActivity("resume_radio",new Intent(CardActivityGroup.this,ResumeActivity.class)).getDecorView();
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);

@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">物联网控制程序</string>
+    <string name="app_name">智慧食堂启动器</string>
 
     <string name="action_settings">Settings</string>
 
     <string name="title1">智能家居</string>
     <string name="title2">智能农业</string>
-    <string name="title3">公交一卡通</string>
+    <string name="title3">食堂一卡通</string>
     <string name="title4">食品溯源</string>
     <string name="title5">Zigbee传感器测试</string>
     <string name="title6">RFID测试</string>

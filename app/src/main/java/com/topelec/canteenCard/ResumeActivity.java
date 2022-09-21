@@ -22,7 +22,7 @@ import it.moondroid.coverflowdemo.R;
 public class ResumeActivity extends Activity {
 
     private static final String TAG = ".ResumeActivity";
-    private static final double stepValue = 6.66;
+    private static final double stepValue = 9.00;
 
     private ImageView statusView;
     private TextView idView;
