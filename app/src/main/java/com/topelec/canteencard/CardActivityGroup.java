@@ -1,17 +1,12 @@
-package com.topelec.canteenCard;
+package com.topelec.canteencard;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityGroup;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.ActionBar;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;

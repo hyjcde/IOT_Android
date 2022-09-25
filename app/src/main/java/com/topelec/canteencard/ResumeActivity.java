@@ -1,4 +1,4 @@
-package com.topelec.canteenCard;
+package com.topelec.canteencard;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -10,9 +10,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -22,7 +22,7 @@ import it.moondroid.coverflowdemo.R;
 public class ResumeActivity extends Activity {
 
     private static final String TAG = ".ResumeActivity";
-    private static final double stepValue = 9.00;
+    private static double stepValue = 9.00;
 
     private ImageView statusView;
     private TextView idView;
@@ -85,9 +85,15 @@ public class ResumeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resume);
 
+/**Todo: 1. 输入消费金额
+ *       2. 放入卡片
+ *       3. 余额不足提示
+ *       4. 余额充足则扣费
+ */
 
         /**数据库相关变量初始化**/
         mContext = this;
+        final EditText resumeText = (EditText) findViewById(R.id.resumeText);
         mDatabaseHelper = DatabaseHelper.getInstance(mContext);
         mDatabase = mDatabaseHelper.getReadableDatabase();
 
@@ -95,6 +101,16 @@ public class ResumeActivity extends Activity {
         idView = (TextView)findViewById(R.id.resume_idView);
         stepView = (TextView)findViewById(R.id.stepView);
         sumView = (TextView)findViewById(R.id.resume_sumView);
+        ImageButton btnResume = (ImageButton) findViewById(R.id.btnRecharge);
+        btnResume.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //TODO: 获取text输入值，并更新到所要扣费的变量stepValue中。
+
+                CharSequence value = resumeText.getText();
+                stepValue = Double.parseDouble(String.valueOf(value));
+            }
+        });
         hideMsgPage();
     }
 

@@ -47,16 +47,16 @@
          </intent-filter>
          </activity>
          <activity android:name="com.topelec.foodtraceability.SettingsActivity" />
-         <activity android:name="com.topelec.canteenCard.CardActivityGroup">
+         <activity android:name="com.topelec.canteencard.CardActivityGroup">
          <intent-filter>
-         <action android:name="com.topelec.buscard.ACTION_BUSCARD" />
+         <action android:name="com.topelec.canteencard.ACTION_BUSCARD" />
 
 
          <category android:name="android.intent.category.DEFAULT" />
          </intent-filter>
          </activity>
-         <activity android:name="com.topelec.canteenCard.RechargeActivity" />
-         <activity android:name="com.topelec.canteenCard.ResumeActivity" />
+         <activity android:name="com.topelec.canteencard.RechargeActivity" />
+         <activity android:name="com.topelec.canteencard.ResumeActivity" />
 
 
          <activity

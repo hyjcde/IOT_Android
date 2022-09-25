@@ -82,6 +82,8 @@
 
     <string name="buscard_recharge_hint">请输入充值金额</string>
 
+    <string name="buscard_resume_hint">请输入消费金额</string>
+
     <string name="buscard_type_a_succeed">设置工作模式成功</string>
 
     <string name="buscard_type_a_fail">设置工作模式失败</string>
@@ -95,6 +97,8 @@
     <string name="buscard_frequency_close_fail">关闭射频失败</string>
 
     <string name="buscard_please_author_first">请先开卡授权</string>
+
+    <string name="buscard_please_input_money_first">请先输入消费金额</string>
 
     <string name="buscard_search_more_than_one">找到多条记录</string>
 
